@@ -1,0 +1,177 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.contact_back {
+  max-width: 1110px;
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  background: #eaf1eb;
+  position: relative;
+  top: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 20px;
+  gap: 32px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 30px;
+  }
+
+  @media (min-width: 1024px) {
+    gap: 200px;
+  }
+}
+
+.contact_txt {
+  text-align: center;
+
+  h2 {
+    font-family: "Lexend", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.05em;
+    color: #1f2533;
+    margin: 20px 0;
+
+    @media (min-width: 768px) {
+      font-size: 48px;
+      line-height: 54px;
+      text-align: left;
+      margin: 48px 0 0 0;
+    }
+  }
+
+  p {
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #1f2533;
+    max-width: 300px;
+    margin: 20px auto;
+
+    @media (min-width: 768px) {
+      text-align: left;
+      margin: 0 0 0 59px;
+      padding: 0;
+    }
+  }
+
+  .bottom {
+    margin-top: 20px;
+
+    @media (min-width: 768px) {
+      margin-top: 177px;
+      padding-left: 59px;
+    }
+
+    span {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: "Lexend", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      color: #1f2533;
+
+      @media (min-width: 768px) {
+        font-size: 24px;
+        gap: 30px;
+      }
+    }
+  }
+}
+
+.contact_form {
+  max-width: 536px;
+  width: 100%;
+  background: #fff;
+  border-radius: 24px;
+  padding: 20px;
+  // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 482px !important;
+
+  @media (min-width: 768px) {
+    border-radius: 29px;
+
+    padding: 40px;
+    height: 482px;
+    justify-content: center;
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .form_group {
+      margin-bottom: 20px;
+
+      label {
+        display: block;
+        font-family: "Lexend", sans-serif;
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #1f2533;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        height: 56px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: "Lexend", sans-serif;
+        font-size: 14px;
+        color: #1f2533;
+        border: 1px solid #efefef;
+        outline: 0;
+      }
+
+      input::placeholder,
+      textarea::placeholder {
+        color: #aaa;
+      }
+
+      textarea {
+        resize: none;
+        height: 100px;
+      }
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      background: #359740;
+      color: #fff;
+      font-family: "Lexend", sans-serif;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      width: Fixed (160px) px;
+      height: Hug (51px) px;
+      padding: 11px 33px 11px 33px;
+      border-radius: 8px;
+      padding: 5px;
+
+      &:hover {
+        background: #78eb05;
+      }
+    }
+  }
+}

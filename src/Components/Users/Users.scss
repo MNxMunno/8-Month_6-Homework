@@ -1,0 +1,65 @@
+
+
+.user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 30px;
+    margin-top: 57px;
+}
+
+.user{
+    img{
+        max-width:255px;
+        height: 255px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    h2{
+        font-family: Lexend;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 34px;
+        letter-spacing: -0.05em;
+        color: #1F2533;
+        text-align: center;
+    }
+    p{
+        font-family: Lexend;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 28px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .user{
+        
+        img{
+            max-width:255px;
+            height: 255px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        h2{
+            font-family: Lexend;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 34px;
+            letter-spacing: -0.05em;
+            color: #1F2533;
+        }
+        p{
+            font-family: Lexend;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 28px;
+    
+        }
+    }
+    
+}
