@@ -45,7 +45,7 @@ const Contact = () => {
       )}
 
       <div className="contact_back container">
-        <div className="contact_txt">
+        <div className="contact_text">
           <h2>Contact us</h2>
           <p>
             Send us your request and we will get in touch with you as soon as

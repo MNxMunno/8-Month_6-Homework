@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
-  padding: 20px;
+  padding: 40px 20px;
   gap: 32px;
 
   @media (min-width: 768px) {
@@ -31,7 +31,7 @@
   }
 }
 
-.contact_txt {
+.contact_text {
   text-align: center;
 
   h2 {
@@ -103,6 +103,7 @@
   flex-direction: column;
   align-items: center;
   height: 482px !important;
+  margin: 20px 0;
 
   @media (min-width: 768px) {
     border-radius: 29px;
